@@ -1,0 +1,135 @@
+body{
+    background:white;
+    font-family: Verdana;
+}
+
+.Email{
+      text-align:center;
+      margin-top:4%;
+      height: 500px;
+      width: 500px;
+      background:solid whitesmoke;
+      border:1px solid grey;
+  }
+
+ hr{
+     color:solid grey;
+ }
+
+ #msqExam{
+  color:rgb(52, 52, 236);
+  font-size:28px;
+  text-shadow: 2px 3px gray;          
+ }
+
+
+  #clientName{
+    margin-top: 50px;
+    border: solid grey 1px;
+    width:100%;
+    padding: 17px 9px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius:10px;
+    box-sizing: border-box;
+    font-size:large;
+  }
+
+  #button{
+    margin-top:45px;
+    font-size:large;
+    background-color: #4CAF50;
+    color: white;
+    padding: 17px 9px;
+    margin: 8px 0;
+    border: 1px;
+    border-radius:10px;
+    cursor: pointer;
+    width: 100%; 
+  }
+
+
+
+
+  #button:hover {
+  opacity: 0.8;
+  }
+
+
+  .imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  }
+
+  img.avatar {
+  width:28%;
+  border-radius: 50%;
+  }
+
+  .container {
+  padding: 16px;
+  }
+
+ 
+  #countdown{
+      text-align: center;
+      float:center;
+      font-size:large;
+      display: block;
+  }
+
+  #questions{
+      font-size:large;
+      text-align: left;
+  }
+  #choices{
+      font-size:large;
+      text-align: left;
+  }
+
+  form{
+      height:70vh;
+      width:800px;
+      border:1px solid gray;
+      overflow:hidden;
+      position: relative;
+  }
+
+   #submitButton{
+      background-color: #4CAF50;
+      font-size:20px;
+      padding:13px 45px;
+      border-radius: 10px;
+  }
+
+  #submitButton:hover{
+      opacity: 0.8;
+  }
+
+  #submitAnswers{
+      background-color:green;
+      font-size:20px;
+      border-radius: 15px;
+      padding:13px 18px;
+  }
+  #submitAnswers:hover{
+      opacity: 0.8;
+  }
+
+   #nextButton{
+      background-color: #4CAF50;
+      font-size:20px;
+      border-radius: 10px;
+      padding:13px 18px;
+  } 
+
+  #nextButton:hover{
+      opacity: 0.8;
+  }
+
+  #displaybutton{
+      display: block;
+      float:center;
+      position: relative;
+  }

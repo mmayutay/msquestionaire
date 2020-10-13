@@ -1,0 +1,45 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<html>
+    <title>MS. Q Questionaire</title>
+    <head> <meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
+  <link rel="stylesheet" href="./css/questionaire.css">
+<body>
+  <!-- <button id="requestor">Ajax</button> -->
+    <div class="questions">
+        <p id="countdown"></p>
+      <center>
+        <div  class="Email">
+            <div>
+                <h1 id="msqExam">MsQAssociate Careers Exam</h1>
+            </div><hr>
+
+            <div class="imgcontainer">
+              <img src="https://static.wixstatic.com/media/bc9755_bc5f10f99c8449fda8666675a6b4b5b0~mv2.png/v1/fill/w_131,h_101,al_c,q_85,usm_0.66_1.00_0.01/MsQ%20logo.webp" alt="Avatar" class="avatar">
+            </div>
+
+            <div class="container">
+              <input autocomplete="off" type="email" placeholder="Enter Your Email" name="email" required id="clientName">
+              <button id="button">LogIn</button>
+            </div>
+         </div>
+      </center>
+
+      <center>
+        <form action="">
+            <p id="numberToAnswer">1 out of 50</p>
+            <p id="questions"></p>
+            <div id="choices"></div>
+        </form><br>
+        <div id="displaybutton">
+            <button id="submitButton">Submit</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <button id="submitAnswers">Submit Answers</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <button id="nextButton">Next Question&#8250;</button>
+        </div>
+      </center>
+    </div> 
+
+</body>
+</html>
+<script src="./javascriptMiddleWare/questions.js"></script>
+<script src="./javascriptMiddleWare/questionare.js"></script>
+<script src="./javascriptMiddleWare/showAnswers.js"></script>
