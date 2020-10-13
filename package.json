@@ -10,6 +10,9 @@
     "e2e": "ng e2e",
     "serve": "nodemon C:/Users/Administrator/FirstAngularApp/src/api/request.js"
   },
+  "engines": {
+    "node": "10.x"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~10.0.11",
