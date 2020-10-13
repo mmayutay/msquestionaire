@@ -1,4 +1,5 @@
 const express = require('express');
+const port = process.env.PORT || 3000
 const mongoose = require("mongoose")
 const cors  = require("cors")
 const app = express();
@@ -26,4 +27,4 @@ mongoose.connect(uri, (err, db) => {
 })
 
 
-app.listen(process.env.PORT, () => {console.log("Listening to port "+process.env.PORT)})
+app.listen(port, () => {console.log("Listening to port "+port)})
