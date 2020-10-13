@@ -11,7 +11,7 @@
     "serve": "nodemon C:/Users/Administrator/FirstAngularApp/src/api/request.js"
   },
   "engines": {
-    "node": "10.x"
+    "node": "12.18.3"
   },
   "private": true,
   "dependencies": {
