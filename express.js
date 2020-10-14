@@ -12,6 +12,9 @@ mongoose.connect(uri, (err, db) => {
     if (err) {
         throw err
     }else {
+        app.get('/', (req, res) => {
+            res.send("Connected to Database!")
+        })
         console.log("Connected to Database!")
         app.get("/allData", (req, res) => {
             db.collection("studentsnames").find({}).toArray((err, result) => {
