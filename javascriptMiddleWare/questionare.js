@@ -131,7 +131,7 @@ $(document).ready(() => {
     $("#submitAnswers").click(() => {
         $.ajax({
             type: 'POST',
-            url: 'http://localhost:3000/addAnswers',
+            url: 'https://msquestions.herokuapp.com/addAnswers',
             data: JSON.stringify({ name: clientName, answers: arrayOfAnswers }), // or JSON.stringify ({name: 'jonas'}),
             success: (data) => {
                 alert("Thank you for taking the exam, just wait for the result, we will call you about the result of your exam!");

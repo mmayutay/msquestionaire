@@ -15,7 +15,7 @@ $(document).keydown(function (e) {
 $(document).ready(() => {
     $("#requestor").click(() => {
         $.ajax({
-            url: 'http://localhost:3000/allData',
+            url: 'https://msquestions.herokuapp.com/allData',
             type: 'GET',
             success: (data) => {
                 console.log(data)

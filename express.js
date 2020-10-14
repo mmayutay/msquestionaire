@@ -22,7 +22,6 @@ mongoose.connect(uri, (err, db) => {
 app.get('/', (req, res) => {
     res.send("Connected to Database!")
 })
-console.log("Connected to Database!")
 app.get("/allData", (req, res) => {
     mongoCollection.find({}).toArray((err, result) => {
         res.send(result)
